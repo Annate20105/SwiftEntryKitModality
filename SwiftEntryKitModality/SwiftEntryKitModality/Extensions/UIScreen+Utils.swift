@@ -10,7 +10,7 @@ import UIKit
 
 extension UIScreen {
     
-    var minEdge: CGFloat {
+    open var minEdge: CGFloat {
         return UIScreen.main.bounds.minEdge
     }
     
